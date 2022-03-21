@@ -1,0 +1,24 @@
+@font-face {
+  font-family: Upheavtt;
+  src: url('/fonts/upheavtt.ttf') format('truetype');
+}
+:root {
+  --accent-color: #f9cd6d;
+}
+html,
+body {
+  scroll-behavior: smooth;
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat",sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
